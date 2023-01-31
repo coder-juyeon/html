@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입 - 컬리</title>
+</head>
+<body>
+	<div>
+		<form name="joinFrom">
+			<div>
+				<p>
+					아이디 <input type="text" placeholder="아이디를 입력해주세요" name="userId"
+						required autocomplete="none">
+				</p>
+			</div>
+			<div>
+				<p>
+					비밀번호 <input type="password" placeholder="비밀번호를 입력해주세요"
+						name="userPassword" required>
+				</p>
+			</div>
+			<div>
+				<p>
+					비밀번호확인 <input type="password" placeholder="비밀번호를 한번 더 입력해주세요"
+						name="userPasswordCheck" required>
+				</p>
+			</div>
+			<div>
+				<p>
+					이름 <input type="text" placeholder="이름을 입력해주세요" name="userName"
+						required>
+				</p>
+			</div>
+			<div>
+				<p>
+					이메일 <input type="text" placeholder="예: marketkurly@kurly.com"
+						name="userEmail" required>
+				</p>
+			</div>
+			<div>
+				<p>
+					휴대폰 <input type="text" placeholder="숫자만 입력해주세요." name="userPhone"
+						required>
+				</p>
+			</div>
+			<div>
+				<p>
+					주소
+					<button>
+						<a href="https://www.kurly.com/address/shipping-address" target="_blank">주소 검색</a>
+					</button>
+				</p>
+			</div>
+			<div>
+				<p>
+					성별 <label><input type="radio" name="gender" value="남">
+						남자</label> <label><input type="radio" name="gender" value="여">
+						여자</label> <label><input type="radio" name="gender" value="선택안함">
+						선택안함</label>
+				</p>
+			</div>
+			<div>
+				<p>
+					생년월일
+					<input type="text" placeholder="YYYY" name="userBirthYear"> <span> /</span>
+					<input type="text" placeholder="MM" name="userBirthMonth"> <span> /</span>
+					<input type="text" placeholder="DD" name="userBirthDay">
+				</p>
+			</div>
+			<div>
+				<p>
+					추가입력 사항 <label><input type="radio" name="userAddInput"
+						value="추천인아이디"> 친구초대 추천인 아이디</label> <label><input
+						type="radio" name="userAddInput" value="이벤트명"> 참여 이벤트명 
+				</p>
+			</div>
+			<div>
+				<div>
+					<div>
+						이용약관동의
+					</div>
+						<div>
+							<label><input type="checkbox" name="termAgree" value="전체동의">전체 동의합니다.</label>
+						</div>
+						<div>
+							<label><input type="checkbox" name="termAgree"value="이용약관동의"> 이용약관동의</label>
+						</div>
+						<div>
+							<label><input type="checkbox" name="termAgree" value="개인정보수집필수"> 개인정보 수집.이용 동의(필수)</label>
+						</div>
+						<div>
+							<label><input type="checkbox" name="termAgree" value="개인정보수집선택"> 개인정보 수집.이용 동의(선택) </label>
+						</div>
+						<div>
+							<label><input type="checkbox" name="termAgree" value="혜택정보수신동의"> 무료배송, 할인쿠폰 등 혜택/정보 수신 동의 </label>
+						</div>
+						<div>
+							<label><input type="checkbox" name="termAgree" value="sms"> SMS </label>
+							<label><input type="checkbox" name="termAgree" value="이메일"> 이메일 </label>
+						</div>
+						<div>
+							<label><input type="checkbox" name="termAgree" value="14세이상"> 본인은 만 14세 이상입니다. </label>
+						</div>
+				</div>
+			</div>
+			<div>
+				<input type = "submit" value="가입하기">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
